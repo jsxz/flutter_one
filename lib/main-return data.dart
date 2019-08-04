@@ -34,17 +34,17 @@ class DoSomeing extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('i am xiao jiejie '),),
       body: Center(child: Column(children: <Widget>[
-        RaisedButton(child: Text('long  leg xiaojiejie1'),onPressed: (){
+        RaisedButton(child: Text('long  leg xiaojiejie'),onPressed: (){
           Navigator.pop(
             context,'abc:111'
           );
         },),
-             RaisedButton(child: Text('long  leg xiaojiejie2'),onPressed: (){
+             RaisedButton(child: Text('long  leg xiaojiejie'),onPressed: (){
           Navigator.pop(
             context,'abc:222'
           );
         },),
-             RaisedButton(child: Text('long  leg xiaojiejie3'),onPressed: (){
+             RaisedButton(child: Text('long  leg xiaojiejie'),onPressed: (){
           Navigator.pop(
             context,'abc:333'
           );
